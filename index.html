@@ -3,7 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <!-- Font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Custom CSS -->
+    <style>
+      .garamond {
+        font-family: "EB Garamond", serif;
+      }
+    </style>
+    <title>Legal Solutions</title>
   </head>
-  <body></body>
+  <body class="garamond">
+    <head>
+      <nav class="flex max-w-[1170px] mx-auto justify-between items-center">
+        <div>
+          <img class="cursor-pointer h-11" src="images/logo2.png" alt="Logo" />
+        </div>
+        <div>
+          <ul class="flex space-x-7">
+            <li class="cursor-pointer text-base">Home</li>
+            <li class="cursor-pointer text-base">
+              Services <i class="fa-solid fa-chevron-right"></i>
+            </li>
+            <li class="cursor-pointer text-base">
+              Cases <i class="fa-solid fa-chevron-right"></i>
+            </li>
+            <li class="cursor-pointer text-base">
+              Blog <i class="fa-solid fa-chevron-right"></i>
+            </li>
+            <li class="cursor-pointer text-base">
+              Contact Us <i class="fa-solid fa-chevron-right"></i>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <button
+            class="bg-[#B68C5A] cursor-pointer text-white px-[29px] py-[18px] rounded-lg"
+          >
+            Free Consultation
+          </button>
+        </div>
+      </nav>
+    </head>
+    <body></body>
+    <footer></footer>
+  </body>
 </html>
