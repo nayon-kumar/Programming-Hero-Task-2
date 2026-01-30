@@ -34,7 +34,7 @@
         <div>
           <img class="cursor-pointer h-11" src="images/logo2.png" alt="Logo" />
         </div>
-        <div>
+        <div class="hidden md:block">
           <ul class="flex space-x-7">
             <li
               class="cursor-pointer text-base hover:text-[#e96d1a] hover:underline transition-all duration-300 underline-offset-8"
@@ -65,10 +65,13 @@
         </div>
         <div>
           <button
-            class="bg-[#B68C5A] cursor-pointer text-white px-[29px] py-[18px] rounded-lg transition-all duration-300 hover:bg-[#e96d1a]"
+            class="bg-[#B68C5A] cursor-pointer text-white px-[29px] py-[18px] rounded-lg transition-all duration-300 hover:bg-[#e96d1a] hidden md:block"
           >
             Free Consultation
           </button>
+          <div class="block md:hidden">
+            <i class="fa-solid fa-bars text-3xl"></i>
+          </div>
         </div>
       </nav>
     </head>
