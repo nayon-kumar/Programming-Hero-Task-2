@@ -32,10 +32,14 @@
     <head>
       <nav class="flex max-w-[1170px] mx-auto justify-between items-center">
         <div>
-          <img class="cursor-pointer h-11" src="images/logo2.png" alt="Logo" />
+          <img
+            class="cursor-pointer h-11 sm:h-7 md:h-11"
+            src="images/logo2.png"
+            alt="Logo"
+          />
         </div>
-        <div class="hidden md:block">
-          <ul class="flex space-x-7">
+        <div class="hidden sm:block">
+          <ul class="flex sm:space-x-2 md:space-x-7">
             <li
               class="cursor-pointer text-base hover:text-[#e96d1a] hover:underline transition-all duration-300 underline-offset-8"
             >
@@ -65,17 +69,54 @@
         </div>
         <div>
           <button
-            class="bg-[#B68C5A] cursor-pointer text-white px-[29px] py-[18px] rounded-lg transition-all duration-300 hover:bg-[#e96d1a] hidden md:block"
+            class="bg-[#B68C5A] cursor-pointer text-white px-[29px] py-[18px] sm:px-2.5 sm:py-2.5 md:px-[29px] md:py-[18px] rounded-lg transition-all duration-300 hover:bg-[#e96d1a] hidden sm:block"
           >
             Free Consultation
           </button>
-          <div class="block md:hidden">
+          <div class="block sm:hidden">
             <i class="fa-solid fa-bars text-3xl"></i>
           </div>
         </div>
       </nav>
     </head>
-    <body></body>
+    <body>
+      <div
+        class="bg-[url('images/banner.png')] max-w-[1170px] h-[550px] mx-auto bg-no-repeat mt-10 rounded-lg"
+      >
+        <div>
+          <div class="max-w-[668px] text-center mx-auto">
+            <h1
+              class="text-4xl sm:text-5xl font-bold text-white pt-10 sm:pt-[104px] mb-6 px-3"
+            >
+              We Provide Effective Legal Solutions
+            </h1>
+            <p class="text-[#E7E7E7] px-3">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+          </div>
+          <div
+            class="mx-auto max-w-[674px] mt-8 gap-5 sm:flex justify-between px-3"
+          >
+            <div class="sm:basis-4/5">
+              <input
+                class="h-10 sm:h-15 p-5 text-[15px] sm:text-[26px] bg-white rounded-lg w-full focus:outline-[#e96d1a]"
+                type="text"
+                placeholder="Search your services"
+              />
+            </div>
+            <div class="text-center sm:basis-1/5">
+              <button
+                class="bg-[#B68C5A] h-10 sm:h-15 w-[150px] rounded-lg cursor-pointer text-[20px] text-white mt-6 sm:mt-0 transition-all duration-300 hover:bg-[#e96d1a]"
+              >
+                Search
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
     <footer></footer>
   </body>
 </html>
